@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "kani-addon",
+  "version": "${version}",
+  "name": "Kani Addon",
+  "description": "Adds Aim Assist and a Wind Charge hop helper.",
+  "authors": [
+    "duckfriend123"
+  ],
+  "contact": {
+    "sources": "https://github.com/duckfriend123/kani-addon"
+  },
+  "icon": "assets/kani/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "meteor": [
+      "kani.addon.KaniAddon"
+    ]
+  },
+  "mixins": [
+    "kani-addon.mixins.json"
+  ],
+  "custom": {
+    "meteor-client:color": "225,25,25",
+    "modmenu": {
+      "parent": {
+        "id": "meteor-client"
+      }
+    }
+  },
+  "depends": {
+    "java": ">=21",
+    "minecraft": "${mc_version}",
+    "meteor-client": "*"
+  }
+}

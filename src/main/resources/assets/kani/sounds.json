@@ -1,0 +1,17 @@
+{
+  "flashbang": {
+    "sounds": [
+      {
+        "name": "kani:flashbang"
+      }
+    ]
+  },
+  "atemlos": {
+    "sounds": [
+      {
+        "name": "kani:atemlos",
+        "stream": true
+      }
+    ]
+  }
+}
