@@ -37,7 +37,7 @@
 - `.copypasta` sends a copypasta. Currently available are breaking bad reference, navy seals and goblin. 
 - `.repeat 10 <message>` repeats a message or command 
 
-### Screenshots
+### Screenshots of PlayerSize and HeadSize working together, and with ESP
 
 <div align="center">
 
