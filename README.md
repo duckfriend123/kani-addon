@@ -20,6 +20,8 @@
 - **Wind Charge Hop** – thing I made for mace pvp, set a hotkey, have windcharge in hotbar, click hotkey, it silent aims at the ground, throws the windcharge and you get 11-12 blocks height everytime. Doesn't reset sword cooldown for some reason. Doesn't trigger grim anticheat. 
 - **Legit Wind Charge Hop Helper** – like windcharge hop except you have to swap to the windcharge manually. and look down manually. and throw it manually. 
 - **Auto Wind Charge Pearl Catch** – throws a pearl up and then a windcharge so you get tp'd into the air
+- **Elytra Attack Swap/AutoDivebomb** – delays the hit you deal when flying/falling with an elytra by 1 tick (or more if you set it in the settings), and then automatically swaps chestplate and elytra allowing you to one hit people easily. It's not foolproof, still requires good aim and sometimes kicks you for sending invalid packets. 
+- **Easy Elytra Takeoff** – when you rightclick a rocket whilst jumping and your elytra is not deployed, you elytra gets deployed and your rocket gets used. currently triggers Grim's ElytraA check once per use.
 - **360** – does a 360.
 - **No Jump Delay** – removes jump delay, ported from meteor rejects
 - **Better Chest Swap** – currently broken.

@@ -22,11 +22,15 @@ public class FallDistanceHud extends HudElement {
     public void render(HudRenderer renderer) {
         String text = "Fall: -";
 
-        if (Utils.canUpdate() && mc.player != null) {
-            text = String.format(Locale.US, "Fall: %.2f", mc.player.fallDistance);
-        }
+        float distance = getCurrentFallDistance();
+        if (distance >= 0f) text = String.format(Locale.US, "Fall: %.2f", distance);
 
         setSize(renderer.textWidth(text, true), renderer.textHeight(true));
         renderer.text(text, x, y, Color.WHITE, true);
+    }
+
+    public static float getCurrentFallDistance() {
+        if (!Utils.canUpdate() || mc.player == null) return -1f;
+        return (float) mc.player.fallDistance;
     }
 }

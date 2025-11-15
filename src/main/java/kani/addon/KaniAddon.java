@@ -23,6 +23,8 @@ import kani.addon.modules.HotkeyManagerModule;
 import kani.addon.modules.LegitWindChargeHopHelper;
 import kani.addon.modules.Module360;
 import kani.addon.modules.NoJumpDelay;
+import kani.addon.modules.ElytraAttackSwap;
+import kani.addon.modules.EasyElytraTakeOff;
 import kani.addon.modules.WindChargeHop;
 import kani.addon.utils.CopypastaManager;
 import kani.addon.utils.HotbarSpoofer;
@@ -57,6 +59,7 @@ public class KaniAddon extends MeteorAddon {
         modules.add(new Flashbang());
         modules.add(new Module360());
         modules.add(new BetterChestSwap());
+        modules.add(new ElytraAttackSwap());
         modules.add(new BetterAttributeSwap());
         modules.add(new NoJumpDelay());
         modules.add(new LegitWindChargeHopHelper());
@@ -68,6 +71,7 @@ public class KaniAddon extends MeteorAddon {
         modules.add(new FullBlink());
         modules.add(new GroundPotion());
         modules.add(new HotkeyManagerModule());
+        modules.add(new EasyElytraTakeOff());
 
         Commands.add(new CommandExample());
         Commands.add(new RepeatCommand());
