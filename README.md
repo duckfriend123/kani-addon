@@ -14,7 +14,7 @@
 - **Better Attribute Swap** - better attribute swap, original code from TrouserStreak. You can select items you want to be swapped from, and select targets you want to swap to. 0 tick swap back delay option, smart mace option (switches to the best mace for maximum damage depending on your fall height).
 - **Aim Assist** – aims at stuff, ported from meteor rejects 
 - **Auto CIA** – ██████████ (████ █████ ██ ██████████) ██ ███ act ██ ███████████ ███████████ ████ ████ █████ ███ ████ (██'█ ████ ███ ████ ██ ██ ███████████ ██ ███████ ███). ████ ████ ████ ██ ████ ███ ███ ██ ████ █████.
-- **Hotkey Manager** – keyboard-wide GUI for viewing and editing all module keybinds from one screen, with search, category cycling, and assignment management.
+- **Hotkey Manager** – keyboard-wide GUI for viewing and editing all module keybinds from one screen, with search, category cycling, and assignment management. (ALPHA, EXPECT AND REPORT BUGS AND VISUAL ANOMALIES)
 - **Player Size** – makes players smaller or bigger.
 - **Head Size** – makes heads smaller or bigger, works with Player Size. 
 - **Wind Charge Hop** – thing I made for mace pvp, set a hotkey, have windcharge in hotbar, click hotkey, it silent aims at the ground, throws the windcharge and you get 11-12 blocks height everytime. Doesn't reset sword cooldown for some reason. Doesn't trigger grim anticheat. 
@@ -39,7 +39,7 @@
 - `.copypasta` sends a copypasta. Currently available are breaking bad reference, navy seals and goblin. 
 - `.repeat 10 <message>` repeats a message or command 
 
-### Screenshots of PlayerSize and HeadSize working together, and with ESP
+### Screenshots
 
 <div align="center">
 
