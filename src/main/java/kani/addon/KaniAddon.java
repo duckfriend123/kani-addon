@@ -19,6 +19,7 @@ import kani.addon.modules.Flashbang;
 import kani.addon.modules.GroundPotion;
 import kani.addon.modules.HeleneFischer;
 import kani.addon.modules.HeadSize;
+import kani.addon.modules.HotkeyManagerModule;
 import kani.addon.modules.LegitWindChargeHopHelper;
 import kani.addon.modules.Module360;
 import kani.addon.modules.NoJumpDelay;
@@ -66,6 +67,7 @@ public class KaniAddon extends MeteorAddon {
         modules.add(new HeleneFischer());
         modules.add(new FullBlink());
         modules.add(new GroundPotion());
+        modules.add(new HotkeyManagerModule());
 
         Commands.add(new CommandExample());
         Commands.add(new RepeatCommand());

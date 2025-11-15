@@ -14,6 +14,7 @@
 - **Better Attribute Swap** - better attribute swap, original code from TrouserStreak. You can select items you want to be swapped from, and select targets you want to swap to. 0 tick swap back delay option, smart mace option (switches to the best mace for maximum damage depending on your fall height).
 - **Aim Assist** – aims at stuff, ported from meteor rejects 
 - **Auto CIA** – ██████████ (████ █████ ██ ██████████) ██ ███ act ██ ███████████ ███████████ ████ ████ █████ ███ ████ (██'█ ████ ███ ████ ██ ██ ███████████ ██ ███████ ███). ████ ████ ████ ██ ████ ███ ███ ██ ████ █████.
+- **Hotkey Manager** – keyboard-wide GUI for viewing and editing all module keybinds from one screen, with search, category cycling, and assignment management.
 - **Player Size** – makes players smaller or bigger.
 - **Head Size** – makes heads smaller or bigger, works with Player Size. 
 - **Wind Charge Hop** – thing I made for mace pvp, set a hotkey, have windcharge in hotbar, click hotkey, it silent aims at the ground, throws the windcharge and you get 11-12 blocks height everytime. Doesn't reset sword cooldown for some reason. Doesn't trigger grim anticheat. 
@@ -24,6 +25,7 @@
 - **Better Chest Swap** – currently broken.
 - **Flashbang** – flashbangs you 
 - **Helene Fischer** - self explanatory. 
+- **Full Blink** – chokes ALL outgoing packets until you toggle it off, with an optional fake player placeholder and auto-disable timer.
 - **Crash** – crashes you. 
 
 ### HUD Elements
@@ -44,6 +46,7 @@
 <img src="screenshots/screenshot1.png" alt="Kani screenshot 1" width="45%">
 <img src="screenshots/screenshot2.png" alt="Kani screenshot 2" width="45%">
 <img src="screenshots/screenshot3.png" alt="Kani screenshot 3" width="45%">
+<img src="screenshots/screenshot4.png" alt="Hotkey Manager screenshot" width="45%">
 
 </div>
 
